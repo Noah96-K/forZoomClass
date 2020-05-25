@@ -24,9 +24,7 @@
   height: 100%;
   /* object-position: 0 -80px; */
 }
-.img__box:nth-child(1) {
-  background-image: url("../images/use1.jpg");
-}
+
 .img1 {
   object-position: 2px 1px;
 }
