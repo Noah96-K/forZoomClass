@@ -13,7 +13,8 @@ function getWeather(lat, lon) {
       const temperature = json.main.temp;
       const today = json.weather[0].main;
       const place = json.name;
-      weather.innerText = `W/T: ✨${today}🎈${temperature}  Location: 🐈${place}`;
+      const celsius = Math.floor(temperature) - 273;
+      weather.innerText = `W/T: ✨${today}🎈${celsius}øC Location: 🐈${place}`;
     });
 }
 
