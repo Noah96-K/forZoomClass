@@ -7,7 +7,17 @@ const touch = document.querySelector(".touch");
 const randomPart = document.querySelector(".random_part");
 
 const NO = "invisible";
+const MEMBER = [
+  "Noah",
+  "TenTen",
+  "Somi",
+  "Rodrigo",
 
+  "Vicky",
+  "person6",
+  "person7",
+  "person8",
+];
 function handleClickedBox() {
   box.classList.add(NO);
   random.classList.remove(NO);
@@ -39,20 +49,14 @@ function handleClickedRandomBox() {
 }
 
 function randomNum() {
-  const num = Math.floor(Math.random() * 2);
+  const num = Math.floor(Math.random() * MEMBER.length);
   return num;
 }
 
 function touchTouch() {
   const ranNum = randomNum();
 
-  if (ranNum === 0) {
-    randomPart.innerHTML = "DEBATE!💪😈";
-    // console.log("a");
-  } else {
-    // console.log("b");
-    randomPart.innerHTML = "OPINION!😎😸";
-  }
+  randomPart.innerHTML = `next week: ${MEMBER[ranNum]} 👨‍🏫`;
 }
 function printDe() {}
 

@@ -21,6 +21,7 @@
 }
 
 .neon__effect:hover {
+  cursor: pointer;
   color: #255784;
   background: #2196f3;
   transition-delay: 0.9s;

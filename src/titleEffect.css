@@ -5,6 +5,9 @@
   margin-bottom: 50px;
   text-align: center;
 }
+.header:hover {
+  cursor: wait;
+}
 .header:hover span:nth-child(2) {
   opacity: 1;
   transition: 1s;
