@@ -7,17 +7,7 @@ const touch = document.querySelector(".touch");
 const randomPart = document.querySelector(".random_part");
 
 const NO = "invisible";
-const MEMBER = [
-  "Noah",
-  "TenTen",
-  "Somi",
-  "Rodrigo",
-
-  "Vicky",
-  "person6",
-  "person7",
-  "person8",
-];
+const MEMBER = ["Noah", "TenTen", "Somi", "Rodrigo", "Vicky", "Yeshin", "Faye"];
 function handleClickedBox() {
   box.classList.add(NO);
   random.classList.remove(NO);
