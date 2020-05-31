@@ -42,7 +42,7 @@ function handleClickedRandomBox() {
 }
 
 function randomNum() {
-  let ORDER = ["Noah", "TenTen", "Somi", "Rodrigo", "Vicky", "Yeshin"];
+  let ORDER = ["Noah", "TenTen", "Somi", "Rodrigo", "Vicky", "Yeshin", "Faye"];
 
   let LENGTH = ORDER.length;
   let num1 = LENGTH;
